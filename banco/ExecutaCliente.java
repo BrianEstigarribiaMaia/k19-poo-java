@@ -38,10 +38,10 @@ public class ExecutaCliente {
 		System.out.println(cartaoCred1);
 		System.out.println(conta1.agencia);
 		System.out.println(conta1);
-		System.out.println("Saldo didpon髒el: "+conta1.consultarSaldoDisponivel());
+		System.out.println("Saldo didpon贸vel: "+conta1.consultarSaldoDisponivel());
 		System.out.println("Transferir 100 Reais pra Conta 2");
 		conta1.transferir(conta2, 100);
-		System.out.println("Saldo didpon髒el ap髎 transaferencia : "+conta1.consultarSaldoDisponivel());
+		System.out.println("Saldo didpon贸vel ap贸s transaferencia : "+conta1.consultarSaldoDisponivel());
 		System.out.println("-------------------------------");
 		
 		/********************************************************************************************/
@@ -53,7 +53,7 @@ public class ExecutaCliente {
 		conta2.transferir(conta1, 50);
 		
 		cartaoCred2.cliente = cliente2; 
-		cartaoCred2.cliente.setNome("K関in Blank");
+		cartaoCred2.cliente.setNome("K茅vin Blank");
 		cartaoCred2.cliente.setCodigo(2);
 		cartaoCred2.setDataDeValidade("01/01/2023");
 		
@@ -62,10 +62,10 @@ public class ExecutaCliente {
 		System.out.println(cartaoCred2);
 		System.out.println(conta2.agencia);
 		System.out.println(conta2);
-		System.out.println("Saldo didpon髒el: "+conta2.consultarSaldoDisponivel());
+		System.out.println("Saldo didpon贸vel: "+conta2.consultarSaldoDisponivel());
 		System.out.println("Transferir 50 Reais pra Conta 1");
 		conta2.transferir(conta1, 50);
-		System.out.println("Saldo didpon髒el ap髎 transaferencia : "+conta2.consultarSaldoDisponivel());
+		System.out.println("Saldo didpon贸vel ap贸s transaferencia : "+conta2.consultarSaldoDisponivel());
 		System.out.println("-------------------------------");
 
 		/********************************************************************************************/
@@ -80,7 +80,7 @@ public class ExecutaCliente {
 			
 			int opcao;
 			do{
-				System.out.println("DIGITE A OP敲O DESEJADA");
+				System.out.println("DIGITE A OP脟脙O DESEJADA");
 				System.out.println("1 - Depositar");
 				System.out.println("2 - Sacar");
 				System.out.println("3 - Saldo");
@@ -98,7 +98,7 @@ public class ExecutaCliente {
 					System.out.println(conta3.consultarSaldoDisponivel());break;
 				case 0: 
 					System.out.println("Sistema encerrado!");break;
-				default: System.out.println("Op玢o Invalida!");
+				default: System.out.println("Op莽茫o Invalida!");
 				}
 			}while(opcao != 0);
 			
