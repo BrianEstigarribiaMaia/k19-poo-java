@@ -19,7 +19,7 @@ public class Cliente {
 	} 
 	
 	public String toString(){
-		String texto = "Nome: "+this.nome+ "\nCódigo: "+this.codigo;
+		String texto = "Nome: "+this.nome+ "\nCÃ³digo: "+this.codigo;
 		return texto;
 	}
 }
