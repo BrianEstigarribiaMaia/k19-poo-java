@@ -24,7 +24,7 @@ public class CartaoDeCredito {
 	}
 	
 	public String toString(){
-		String texto = "Cart„o de CrÈdito Numero: "+this.numero+ "\nData de validade: "+this.dataDeValidade;
+		String texto = "Cart√£o de Cr√©dito Numero: "+this.numero+ "\nData de validade: "+this.dataDeValidade;
 		return texto;
 	}
 }
