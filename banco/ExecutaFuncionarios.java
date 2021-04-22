@@ -22,7 +22,7 @@ public class ExecutaFuncionarios {
 		System.out.println(gerente);
 		controle.resgistrarEntrada(gerente);
 		System.out.println("-------------------------------");
-		System.out.println("*****SECRET¡RIA*****");
+		System.out.println("*****SECRET√ÅRIA*****");
 		System.out.println(secretaria);
 		controle.resgistrarEntrada(secretaria);
 		System.out.println("-------------------------------");
