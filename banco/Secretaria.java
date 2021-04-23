@@ -12,8 +12,8 @@ public class Secretaria extends Funcionario{
 	}
 	
 	public String toString(){
-		String texto = "Nome: " +this.getNome()+ "\nSal·rio: " +this.getSalario()+
-				"\nBonificaÁ„o: " +this.calcularBonificacao()+ "\nRamal: " +this.getRamal();
+		String texto = "Nome: " +this.getNome()+ "\nSal√°rio: " +this.getSalario()+
+				"\nBonifica√ß√£o: " +this.calcularBonificacao()+ "\nRamal: " +this.getRamal();
 		return texto;
 	}
 }
