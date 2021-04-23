@@ -22,8 +22,8 @@ public class Gerente extends Funcionario{
 	}
 	
 	public String toString(){
-		String texto = "Nome: " +this.getNome()+ "\nSal·rio: " +this.getSalario()+
-				"\nBonificaÁ„o: " +this.calcularBonificacao()+ "\nUsu·rio: " +this.getUsuario()+ "\nSenha:" +this.getSenha();
+		String texto = "Nome: " +this.getNome()+ "\nSal√°rio: " +this.getSalario()+
+				"\nBonifica√ß√£o: " +this.calcularBonificacao()+ "\nUsu√°rio: " +this.getUsuario()+ "\nSenha:" +this.getSenha();
 		return texto;
 	}
 }
