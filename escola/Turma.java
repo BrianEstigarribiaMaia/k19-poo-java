@@ -32,7 +32,7 @@ public class Turma {
 
 	public String toString(){
 		String texto = "Periodo: "+this.periodo+ " | Sigla: "+this.sigla+
-				"\nTipo de Ensino: "+this.tipoDeEnsino+ " |  Série: "+this.serie;
+				"\nTipo de Ensino: "+this.tipoDeEnsino+ " |  SÃ©rie: "+this.serie;
 		return texto;
 	}
 }
