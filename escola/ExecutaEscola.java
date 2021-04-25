@@ -15,16 +15,16 @@ public class ExecutaEscola {
 		
 		int opcao;
 		do{
-			System.out.println("***** MENU FUNCION¡RIO *****");
+			System.out.println("***** MENU FUNCION√ÅRIO *****");
 			System.out.println("1 - Aumentar salario: ");
 			System.out.println("2 - Alterar nome");
-			System.out.println("3 - Mostrar InformaÁıes do Funcion·rio:");
+			System.out.println("3 - Mostrar Informa√ß√µes do Funcion√°rio:");
 			System.out.println("0 - Sair");
 			opcao = ler.nextInt();
 			
 			switch(opcao){
 			case 1:
-				System.out.println("Digite o valor a ser acrescentado ao sal·rio: ");
+				System.out.println("Digite o valor a ser acrescentado ao sal√°rio: ");
 				funcionario.aumentarSalario(ler.nextDouble()); break;
 			case 2:
 				System.out.println("Digite o novo nome do Funcionario: ");
@@ -35,14 +35,14 @@ public class ExecutaEscola {
 				System.out.println("--------------------------------------");break;
 			case 0:
 				System.out.println("Sistema Encerrado"); break;
-			default: System.out.println("OpÁ„o Inv·lida!");
+			default: System.out.println("Op√ß√£o Inv√°lida!");
 			}
 		}while(opcao != 0);
 		
 		ler.close();
 		
 		Turma turma1 =  new Turma();
-		turma1.setPeriodo("Manh„");
+		turma1.setPeriodo("Manh√£");
 		turma1.setSigla("T01-M");
 		turma1.setTipoDeEnsino("Presencial");
 		turma1.setSerie(5);
