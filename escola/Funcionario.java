@@ -31,7 +31,7 @@ public class Funcionario {
 	
 	public String toString(){
 		String texto = "Nome: "+this.nome+ " | Cargo: "+this.cargo+ 
-				"\nSal·rio: "+this.salario;
+				"\nSal√°rio: "+this.salario;
 		return texto;
 	}
 }
