@@ -27,8 +27,8 @@ public class Funcionario {
 	
 	public void mostrarDados(){
 		System.out.println("Nome: "+ this.nome);
-		System.out.println("Sal·rio: "+ this.salario);
-		System.out.println("BonificaÁ„o: "+this.calcularBonificacao());
+		System.out.println("Sal√°rio: "+ this.salario);
+		System.out.println("Bonifica√ß√£o: "+this.calcularBonificacao());
 	}
 	
 	
