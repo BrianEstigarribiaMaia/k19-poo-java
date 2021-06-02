@@ -1,4 +1,4 @@
-package br.com.k19poo.polimorfismo;
+package br.com.k19poo.polimorfismo.testes;
 
 public class TesteGeradorDeExtrato {
 
