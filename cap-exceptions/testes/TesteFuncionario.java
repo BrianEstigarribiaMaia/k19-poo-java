@@ -10,7 +10,7 @@ public class TesteFuncionario {
 		try {
 			funcionario.aumentarSalario(-500);
 		} catch (IllegalArgumentException e) {
-			System.out.println("Houve um erro ao aumentar o sal·rio: "+ e);
+			System.out.println("Houve um erro ao aumentar o sal√°rio: "+ e);
 		}
 
 	}
